@@ -40,9 +40,9 @@ public class StudyDashboard {
         return reviews;
     }
 
-    public static void main(String[] args) throws IOException {
+    public void main(String[] args) throws IOException {
         StudyDashboard studyDashboard = new StudyDashboard();
-        studyDashboard.studyReviews(issue);
+        studyDashboard.loadReview();
         studyDashboard.getUsernames().forEach(System.out::println);
         studyDashboard.getReviews().forEach(System.out::println);
     }

@@ -36,7 +36,4 @@ public class StudyDashboard {
     }
 }
 
-/* Record 정의 */
-public record StudyReview(String reviewer, String review) {
-}
 
