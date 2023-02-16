@@ -1,0 +1,1 @@
+package me.jounhee.refactoring._05_global_data;
