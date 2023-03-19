@@ -2,9 +2,9 @@ package me.jounhee.refactoring._11_primitive_obsession._32_replace_conditional_w
 
 import java.util.List;
 
-public class Employee {
+public abstract class Employee {
 
-    private List<String> availableProjects;
+    protected List<String> availableProjects;
 
     public Employee(List<String> availableProjects) {
         this.availableProjects = availableProjects;

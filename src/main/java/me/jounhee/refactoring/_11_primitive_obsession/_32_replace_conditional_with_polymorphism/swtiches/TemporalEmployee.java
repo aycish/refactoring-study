@@ -3,8 +3,8 @@ package me.jounhee.refactoring._11_primitive_obsession._32_replace_conditional_w
 import java.util.List;
 
 public class TemporalEmployee extends Employee {
-    public TemporalEmployee(String type, List<String> availableProjects) {
-        super(type, availableProjects);
+    public TemporalEmployee(List<String> availableProjects) {
+        super(availableProjects);
     }
 
     @Override
